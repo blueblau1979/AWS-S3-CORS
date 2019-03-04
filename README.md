@@ -17,7 +17,7 @@ For security reasons, cross-origin HTTP requests made by code are restricted. Fo
 
 ## Prerequisites
 
-- AWS account
+- AWS account
 - Download the files in this tutorial
 
 ## Create S3 Bucket and upload file
@@ -30,7 +30,7 @@ Now, we create two **S3 Bucket** to simulate the scenario, since **S3 Bucket** c
 
 Although these limitations are necessary, there are times when they are inconvenient and reasonable use is compromised. One of the ways to circumvent these three limitations is described below.：**CORS**
 
-1.  login to AWS console [AWS console](https://console.aws.amazon.com/console/home?region=us-east-1)
+1.  login to AWS console [AWS console](https://console.aws.amazon.com/console/home?region=us-east-1)
 2.  At the top of the console, click **Services** -> **S3**
 
 3.  click **Create bucket**
@@ -58,7 +58,7 @@ Although these limitations are necessary, there are times when they are inconven
         <img src="img/004-Click-Upload-10.png" width="30%" height="30%">
     </p>
 
-11. **Next** -> **Manage public permissions** choose **Grant public read access to this object(s)** -> **Next** -> **Next** -> **Upload**
+11. **Next** -> **Manage public permissions** choose **Grant public read access to this object(s)** -> **Next** -> **Next** -> **Upload**
 12. now we back to **Bucket-1** -> **Prorperties** -> **Static website hosting**. Because we are not storing **index.html** file in this **Bucket**, to load **load.html** need to add **/load.html** behind the URL.
 
     <p align="center">
